@@ -49,7 +49,7 @@ div.cveado div
     background-color: blanchedalmond;
 }
 
-@media (min-width: 1024px) 
+@media (min-width: 405px) 
 {
     div.cveado
     {
