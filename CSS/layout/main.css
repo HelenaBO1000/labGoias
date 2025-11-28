@@ -22,6 +22,7 @@ main h1
 .A > div,
 .B > div {
     flex: 1;
+    margin: 0 !important;
 }
 
 .A img,
