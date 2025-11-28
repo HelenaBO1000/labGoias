@@ -4,6 +4,9 @@ main{
     margin-top: 0%;
     margin-bottom: 0%;
 }
+*
+{
+     background-color: rgb(255, 243, 228);}
 main img
 {
     border-radius: 15%;
