@@ -4,9 +4,6 @@ main{
     margin-top: 0%;
     margin-bottom: 0%;
 }
-*
-{
-     background-color: rgb(255, 243, 228);}
 main img
 {
     border-radius: 15%;
@@ -52,7 +49,7 @@ div.cveado div
     background-color: blanchedalmond;
 }
 
-@media (min-width: 405px) 
+@media (min-width: 320px) 
 {
     div.cveado
     {
@@ -66,6 +63,8 @@ div.cveado div
     align-items: center;     
     justify-content: center; 
     text-align: center; 
+    padding: 16px;
+    border-radius: 15%;
     }
     main h1
     {
@@ -73,8 +72,10 @@ div.cveado div
     margin:0 50px 0;
     }
     main > img {
-        width: 100px;
-        margin: 0 auto 6px;
+        width: 98%;
+        margin: 1%;
+        max-width: 500px;
+        flex: 1;
         display: block;
     }
     main h2 {
@@ -108,22 +109,24 @@ main p
   }
 
   section.sobre > div > div {
-    flex: 0 0 500px;   
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    flex: 1;
     box-sizing: border-box;
     text-align: center;
     background: rgb(251, 252, 238);  
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 15%;
   }
 
   section.sobre > div > div img {
-    width: 48px;
-    height: 30px;
+    width: 100%;
+    max-width: 420px;
+    flex: 1;
     object-fit: cover;
     display: block;
     margin: 0 auto 6px;
-    border-radius: 15%;
+    border-radius: 5%;
   }
     .A, .B {
     display: flex;
@@ -194,7 +197,7 @@ main p
     text-align: center;
     background: rgb(251, 252, 238);  
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 5%;
   }
 
   section.sobre > div > div img {
