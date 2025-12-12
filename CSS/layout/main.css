@@ -46,6 +46,7 @@ div.cveado
     background-repeat: no-repeat;
     padding: 40px;  
     display: flex;
+    width: 100%;
     align-items: flex-start;
 }
 div.cveado div
@@ -67,6 +68,8 @@ div.cveado div
     justify-content: center; 
     text-align: center;
     padding: 16px;
+    margin-left: 0% !important;
+    width: 100% !important;
     }
     div.cveado div
     {
@@ -131,7 +134,7 @@ main p
     text-align: center;
     background: rgb(251, 252, 238);  
     padding: 16px;
-    border-radius: 15%;
+    border-radius: 5%;
   }
 
   section.sobre > div > div img {
@@ -146,8 +149,10 @@ main p
     .A, .B {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;       
 }
+.A, .B img{margin: 5px auto;}
  .A{flex-direction: column-reverse;}
  .B{flex-direction: column;}
 }
